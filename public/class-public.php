@@ -425,6 +425,7 @@ class Gigfilliate_Order_For_Customer_Public
       update_user_meta($current_user_id, 'shipping_state', $current_user->get_shipping_state());
       update_user_meta($current_user_id, 'shipping_postcode', $current_user->get_shipping_postcode());
       update_user_meta($current_user_id, 'shipping_country', $current_user->get_shipping_country());
+      update_user_meta($current_user_id, 'shipping_phone', $current_user->get_shipping_phone());
     }
   }
 
